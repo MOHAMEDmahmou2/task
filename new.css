@@ -1,0 +1,428 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    background: url(back.jpeg);
+    background-size:cover;
+    height: 120vh;
+}
+.img_logo{
+    width: 160px;
+}
+.nav{
+width: 85%;
+margin: auto;
+padding: 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 999;
+
+}
+.section{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+}
+.list_li ul{
+    display: none;
+
+  }
+.list_li:hover ul   {
+display: flex;
+flex-direction: column;
+
+}
+  
+a{
+
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.nav ul li{
+display: inline-block;
+margin: 0 20px;
+}
+.apply_for_loan{
+    height: 50px;
+    background-color: #04AA6D;
+}
+
+
+.text{
+    font-size:50px;
+    margin-left: 15%;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 900;
+
+}
+.h2_form{
+    font-size: 40px;
+    margin-top: 30px;
+}
+#hr_text{
+width: 20%;
+border: 2px solid white;  
+margin-bottom: 20px;  
+ } 
+ p{
+    font-size: 25px;
+    font-weight: 1000;
+ }
+#btn_text{
+border: 2px solid white ;
+width: 200px;
+height: 60px;
+margin-top: 15px;
+background-color: transparent;
+color: #fff;
+font-weight: 900;
+}
+
+
+#btn_text:hover {
+    background-color: #04AA6D; 
+    color: white;
+    /* transform: translate(0.2);   speed btn */
+  }
+.form{
+    background-color:white;
+    width: 30%;
+    height: 650px;
+    margin-top: 100px;
+    margin-right:155px;
+    text-align: center;
+}
+.select{
+    margin-top: 80px;
+    text-align: center;
+}
+#p_form{
+    font-size: 20px;
+}
+.hr_form{
+    margin-top: 40px;
+    border: 2px solid;
+    margin-left: 30%;
+    margin-right: 40%;
+    color: #04AA6D;
+
+}
+#hr{
+text-align: center;
+width: 20px;   
+}
+#p_amount{
+    margin-bottom:10px;
+    opacity: 0.5;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-right: 50%;
+}
+#cars{
+    width: 80%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+option{
+    height: 5px;
+    background-color: #04AA6D;
+    font-size: 20px;
+}
+#btn_form{
+    font-weight: 200;
+    font-size: 20px;
+    margin-top: 15px;
+    width: 80%;
+    color: #fff;
+    background-color: #04AA6D;
+    height: 60px;
+    cursor: pointer;
+    list-style: none;
+}
+#p_we_provaid{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.formContainer{
+
+    background-color: #fff;
+    width: 50%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headingForm{
+
+font-family: Inter, sans-serif;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 29px;
+    
+
+}
+
+
+.right h4 {
+
+    text-align: center;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.Solutions{
+    text-align: center;
+    margin-top: 50px;
+}
+.Solutions h3{
+    font-size: 50px;
+}
+.hr_solution{
+    margin-top: 20px;
+    border: 2px solid;
+    color: #04AA6D;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+.Solutions p{
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+.home_car_business{
+    margin-bottom: 100px;
+}
+.home_1{
+    display: inline-block;
+    width: 25%;
+    height: 200px;
+    padding: 10px;
+    margin-left: 70px;
+    margin-top:50px;
+    font-size: 20px;
+}
+
+
+.home_1 p{
+    padding-top: 20px;
+    opacity: 0.5;
+    text-transform: capitalize;
+
+}
+.home_p{
+padding-bottom: 20px;
+}
+.home_1:hover h2{
+    color: #04AA6D;
+}
+.We_guide_projects{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: rgb(232, 237, 236);
+}
+.img{
+margin-top: 100px;
+margin-left: 10%;
+}
+.text_guide{
+    margin-top: 100px;
+
+}
+.text_guide h2{
+    font-size: 50px;
+}
+.hr_we_guide{
+    margin-top: 50px;
+    margin-right: 50px;
+
+    border: 1px solid rgb(165, 165, 185);
+}
+.text_guide p{
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 50px;
+}
+li{
+  font-size: 30px;
+  font-weight: 500;
+    padding-top: 15px;
+    
+}
+li::marker{
+    color: #04AA6D;
+}
+.btn_we_guide{
+    width: 250px;
+    height: 70px;
+    border: 3px solid rgb(128, 239, 128);
+    margin-top: 50px;
+    color: #04AA6D;
+    font-weight: 700;
+    font-size: 20px;
+}
+.btn_we_guide:hover{
+    background-color: #04AA6D;
+    color: #fff;
+    cursor: pointer;
+}
+.quick_apply_big{
+  
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 100px;
+}
+
+.why_chose{
+    margin-top: 100px;
+    text-align: center;
+}
+.why_chose_h2{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Inter",sans-serif;
+}
+.hr_why{
+    border: 2px solid rgb(132, 241, 132);
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.quick_apply_big p{
+    font-size: 20px;
+    margin-top: 40px;
+}
+.quick_apply_big h2{
+    text-align: center;
+    font-family: "Inter",sans-serif;
+        
+}
+.Get_loan{
+    margin-top: 100px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(236, 236, 254);
+
+}
+
+.get_loan_text{
+    margin-left: 7%;    
+}
+.get_loan_text h2{
+    font-family: "Inter",sans-serif;
+    font-size: 35px;
+        
+}
+.get_loan_text h2{
+    color: #0F4332;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -.04em;
+    margin-bottom: 22px;
+    
+}
+.hr_get_loan{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(205, 205, 200) ;
+}
+.get_loan_text p{
+    
+    color: #6D6D6D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.Latest_News{
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height:  100vh;
+}
+.Latest_News h2{
+    color: #0F4332;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 22px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contaneir_last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.March{
+    color: #A4ACA9;
+    margin-bottom: 14px;
+    display: block;
+    font-family: "Chivo",sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.p{
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    font-weight: 700;
+    display: block;
+    color: #0F4332;
+}
+.tools{
+    color: #4C5753;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    line-height:1.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
